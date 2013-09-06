@@ -14,6 +14,14 @@
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width">
     <style type="text/css">
+        body {
+            font-family: "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+            color: #4b4b4b;
+        }
+
+        h1 {
+            font-size: 3rem;
+        }
 
         .site-wrapper {
             padding: 0px 20%;
@@ -24,12 +32,24 @@
             padding: 2rem 0rem;
         }
 
-        .header {
-            font-size: 2rem;
+        .subheader {
+            font-size: 1.8rem;
         }
 
-        .subheader {
-            font-size: 1.5rem;
+        .offers {
+            font-size: 1.8rem;
+        }
+
+        .portfolio {
+            font-size: 1.6rem;
+        }
+
+        .tools {
+            margin-bottom: 3rem;
+        }
+
+        .tools-software {
+            padding-top: 1rem;
         }
 
     </style>
@@ -39,7 +59,8 @@
 <div class="site-wrapper">
 
     <div class="header">
-        <a href="https://www.sinnwerkstatt.com/">Sinnwerkstatt</a> @ Github
+        <img src="static/img/sinnwerkstatt-logo-weiss-transparent-200w.png" alt="Sinnwerkstatt"/><br/>
+        <h1><a href="https://www.sinnwerkstatt.com/">Sinnwerkstatt</a> @ Github</h1>
     </div>
 
     <div class="subheader">
@@ -56,10 +77,11 @@
 
     <div class="tools">
         Check our open source software:
-        <ul>
-            <li><a href="https://github.com/sinnwerkstatt/MediaWiki-to-Markdown-Javascript-Converter">MediaWiki to
-                Markdown Javascript converter</a></li>
-        </ul>
+        <div class="tools-software">
+            <a href="https://github.com/sinnwerkstatt/MediaWiki-to-Markdown-Javascript-Converter">
+                MediaWiki to Markdown Javascript converter
+            </a>
+        </div>
     </div>
 
 </div>
