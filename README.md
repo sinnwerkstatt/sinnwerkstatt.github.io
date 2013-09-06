@@ -1,4 +1,4 @@
-sinnwerkstatt-sinnwerkstatt.github.io
+sinnwerkstatt.github.io
 =====================================
 
 GitHub.io for Sinnwerkstatt
