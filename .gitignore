@@ -1,0 +1,19 @@
+# OS
+.DS_Store
+
+# Python
+*.pyc
+*.egg-info
+
+# IDE
+.idea/
+
+# SQLite3 database:
+*.db
+
+# Tools Folders
+.sass-cache
+bower_components
+
+
+# Project files
